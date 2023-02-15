@@ -14,12 +14,255 @@
 
 
     <style>
-      
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1440px;
+            max-height: 79px;
+            background: #FFFFFF;
+        }
+
+        .container {
+            padding-left: 50px;
+            padding-right: 50px;
+
+        }
+
+
+        .navigation-left {
+            display: flex;
+            justify-items: start;
+        }
+
+        .navigation-right {
+            display: flex;
+            justify-content: end;
+            gap: 10px;
+            color: rgba(0, 0, 0, 0.5);
+
+        }
+
+        .dino-picture {
+            display: flex;
+        }
+
+        .top-content {
+            border-radius: 20px;
+            background: #C5EC00;
+
+            height: 1000px;
+
+        }
+
+        .dopcontent {
+            display: flex;
+            justify-content: space-between;
+            padding-right: 45px;
+            padding-left: 40px;
+        }
+
+        .top-content-left {
+            padding-left: 20px;
+        }
+
+
+        .shop-picture {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-size: 25px;
+            line-height: 30px;
+            color: #0C0C0C;
+            padding-left: 41px;
+        }
+
+
+
+        .kid {
+
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-size: 55px;
+            line-height: 58px;
+            color: #0C0C0C;
+
+        }
+
+        .card {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+
+        }
+
+        .top-content-right {
+
+            padding-top: 65px;
+            margin-left: 150px;
+        }
+
+        .line {
+            border: 2px solid #0C0C0C;
+            margin-left: 40px;
+            margin-right: 48px;
+            margin-top: 70px;
+            margin-bottom: 80px;
+        }
+
+
+
+
+        .send {
+            width: 300px;
+            height: 65px;
+            background: #0C0C0C;
+            border-radius: 15px;
+            color: #FFFFFF;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-size: 18px;
+
+
+
+        }
+
+        .recent-works {
+            padding-top: 10px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 36px;
+            color: #0C0C0C;
+            padding-top: 60px;
+            padding-bottom: 60px;
+
+
+        }
+
+        .top-content-center {
+
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 500px;
+
+        }
+
+
+        .bottom-content-center {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 500px;
+
+        }
+
+
+        .blok-picture1 {
+            background-image: url(imgtoken/dino1.png);
+            background-repeat: no-repeat;
+
+        }
+
+        .logo-top {
+            display: flex;
+            justify-content: flex-end;
+            width: 300px;
+            padding-top: 15px;
+        }
+
+        .logo-center {
+            margin-top: 215px;
+            margin-left: 25px;
+            margin-right: 20px;
+        }
+
+        .logo-bottom {
+            padding-left: 25px;
+        }
+
+        .autor {
+            padding-left: 30px;
+            padding-top: 8px;
+        }
+
+        .blok-picture2 {
+            background-image: url(imgtoken/man.png);
+            background-repeat: no-repeat;
+
+        }
+
+        .blok-picture3 {
+            background-image: url(imgtoken/abstract.png);
+            background-repeat: no-repeat;
+
+        }
+
+        .blok-picture4 {
+            background-image: url(imgtoken/man2.png);
+            background-repeat: no-repeat;
+
+        }
+
+        .blok-picture5 {
+            background-image: url(imgtoken/abstract1.png);
+            background-repeat: no-repeat;
+
+        }
+
+        .blok-picture6 {
+            background-image: url(imgtoken/girl.png);
+            background-repeat: no-repeat;
+
+        }
+
+        .blok-picture7 {
+            background-image: url(imgtoken/bird.png);
+            background-repeat: no-repeat;
+
+        }
+
+        .blok-picture8 {
+            background-image: url(imgtoken/cat.png);
+            background-repeat: no-repeat;
+
+        }
+
+        .title-text {
+            color: #FFFFFF;
+        }
+
+        .title-number {
+            color: #FFFFFF;
+        }
+
+        .title-number1 {
+            color: #FFFFFF;
+
+        }
+
+        footer {
+            display: flex;
+            background: #F4F4F4;
+
+        }
     </style>
 </head>
 
 <body>
-    <div class="contaier">
+    <div class="container">
         <header>
 
             <nav class="navigation-left">
@@ -87,29 +330,41 @@
         <main>
             <div class="content">
                 <div class="top-content">
-                    <div class="top-content-left">
+                    <div class="dopcontent">
+                        <div class="top-content-left">
 
-                        <p class="kid">Благотворительная <br> <b>NFT-галерея</b>
-                            <br> с картинами особенных <br> детей и подростков
-                        </p>
-                        <button class="send">Посмотреть все картины</button>
-                        <p class="card"> Чтобы зарезервировать NFT, нужна только банковская карта.
-                            <br>Криптовалюта и
-                            Web3-кошелёк вам <b>не
-                                понадобятся.</b>
-                        </p>
-                    </div>
-                    <div class="top-content-right">
+                            <p class="kid">Благотворительная <br> <b>NFT-галерея</b>
+                                <br> с картинами особенных <br> детей и подростков
+                            </p>
+                            <button class="send">Посмотреть все картины</button>
+                            <p class="card"> Чтобы зарезервировать NFT, нужна только банковская карта.
+                                <br>Криптовалюта и
+                                Web3-кошелёк вам <b>не
+                                    понадобятся.</b>
+                            </p>
+                        </div>
 
-                        <img class="dino-picture" src="imgtoken/ddinno.jpg">
+                        <div class="top-content-right">
 
+                            <img class="dino-picture" src="imgtoken/ddinno.jpg">
+
+                        </div>
                     </div>
                     <div class="line"></div>
+                    <div class="shop-picture">
+
+                        <p>Покупка картины – это<b> ваше пожертвование</b> в организацию, которую
+                            представляет автор работы. Вы не только станете благотворителем, но и получите право
+                            владения
+                            цифровой копией картины или её оригиналом, в зависимости от того, какой токен вы приобрели.
+                        </p>
+
+                    </div>
 
                 </div>
 
 
-                <span>Последние работы </span>
+                <div class="recent-works">Последние работы </div>
 
 
 
@@ -117,83 +372,124 @@
                     <div class="top-content-center">
 
                         <div class="blok-picture1">
-                            <img class="picture" src="imgtoken/nft.jpg">
-                            <img class="picture1" src="imgtoken/pict.jpg">
-                            <p class="title-text">Дино</p>
-                            <p class="title-number">1500 ₽</p>
-                            <p class="title-number1">0 / 1000</p>
-                            <img class="picture" src="imgtoken/Rectangle.jpg">
-                            <img class="autor" src="imgtoken/author.jpg">
+                            <div class="logo-top">
+                                <img src="imgtoken/tips.png">
+                            </div>
+                            <div class="logo-center">
+                                <img src="imgtoken/dino1500.png">
+                            </div>
+                            <div class="logo-bottom">
+                                <img src="imgtoken/progress-bar.png">
+                            </div>
+                            <div class="autor">
+                                <img src="imgtoken/author.jpg">
+                            </div>
                         </div>
+
                         <div class="blok-picture2">
-                            <img class="picture" src="imgtoken/nft.jpg">
-                            <img class="picture1" src="imgtoken/pict.jpg">
-                            <p class="title-text">Дино</p>
-                            <p class="title-number">1500 ₽</p>
-                            <p class="title-number1">0 / 1000</p>
-                            <img class="picture" src="imgtoken/Rectangle.jpg">
-                            <img class="autor" src="imgtoken/author.jpg">
+                            <div class="logo-top">
+                                <img src="imgtoken/tips.png">
+                            </div>
+                            <div class="logo-center">
+                                <img src="imgtoken/dino1500.png">
+                            </div>
+                            <div class="logo-bottom">
+                                <img src="imgtoken/progress-bar.png">
+                            </div>
+                            <div class="autor">
+                                <img src="imgtoken/author.jpg">
+                            </div>
                         </div>
 
                         <div class="blok-picture3">
-                            <img class="picture" src="imgtoken/nft.jpg">
-                            <img class="picture1" src="imgtoken/pict.jpg">
-                            <p class="title-text">Дино</p>
-                            <p class="title-number">1500 ₽</p>
-                            <p class="title-number1">0 / 1000</p>
-                            <img class="picture" src="imgtoken/Rectangle.jpg">
-                            <img class="autor" src="imgtoken/author.jpg">
+                            <div class="logo-top">
+                                <img src="imgtoken/tips.png">
+                            </div>
+                            <div class="logo-center">
+                                <img src="imgtoken/dino1500.png">
+                            </div>
+                            <div class="logo-bottom">
+                                <img src="imgtoken/progress-bar.png">
+                            </div>
+                            <div class="autor">
+                                <img src="imgtoken/author.jpg">
+                            </div>
                         </div>
                         <div class="blok-picture4">
-                            <img class="picture" src="imgtoken/nft.jpg">
-                            <img class="picture1" src="imgtoken/pict.jpg">
-                            <p class="title-text">Дино</p>
-                            <p class="title-number">1500 ₽</p>
-                            <p class="title-number1">0 / 1000</p>
-                            <img class="picture" src="imgtoken/Rectangle.jpg">
-                            <img class="autor" src="imgtoken/author.jpg">
+                            <div class="logo-top">
+                                <img src="imgtoken/tips.png">
+                            </div>
+                            <div class="logo-center">
+                                <img src="imgtoken/dino1500.png">
+                            </div>
+                            <div class="logo-bottom">
+                                <img src="imgtoken/progress-bar.png">
+                            </div>
+                            <div class="autor">
+                                <img src="imgtoken/author.jpg">
+                            </div>
                         </div>
                     </div>
 
                     <div class="bottom-content-center">
                         <div class="blok-picture5">
-                            <img class="picture" src="imgtoken/nft.jpg">
-                            <img class="picture1" src="imgtoken/pict.jpg">
-                            <p class="title-text">Дино</p>
-                            <p class="title-number">1500 ₽</p>
-                            <p class="title-number1">0 / 1000</p>
-                            <img class="picture" src="imgtoken/Rectangle.jpg">
-                            <img class="autor" src="imgtoken/author.jpg">
+                            <div class="logo-top">
+                                <img src="imgtoken/tips.png">
+                            </div>
+                            <div class="logo-center">
+                                <img src="imgtoken/dino1500.png">
+                            </div>
+                            <div class="logo-bottom">
+                                <img src="imgtoken/progress-bar.png">
+                            </div>
+                            <div class="autor">
+                                <img src="imgtoken/author.jpg">
+                            </div>
                         </div>
 
                         <div class="blok-picture6">
-                            <img class="picture" src="imgtoken/nft.jpg">
-                            <img class="picture1" src="imgtoken/pict.jpg">
-                            <p class="title-text">Дино</p>
-                            <p class="title-number">1500 ₽</p>
-                            <p class="title-number1">0 / 1000</p>
-                            <img class="picture" src="imgtoken/Rectangle.jpg">
-                            <img class="autor" src="imgtoken/author.jpg">
+                            <div class="logo-top">
+                                <img src="imgtoken/tips.png">
+                            </div>
+                            <div class="logo-center">
+                                <img src="imgtoken/dino1500.png">
+                            </div>
+                            <div class="logo-bottom">
+                                <img src="imgtoken/progress-bar.png">
+                            </div>
+                            <div class="autor">
+                                <img src="imgtoken/author.jpg">
+                            </div>
                         </div>
 
                         <div class="blok-picture7">
-                            <img class="picture" src="imgtoken/nft.jpg">
-                            <img class="picture1" src="imgtoken/pict.jpg">
-                            <p class="title-text">Дино</p>
-                            <p class="title-number">1500 ₽</p>
-                            <p class="title-number1">0 / 1000</p>
-                            <img class="picture" src="imgtoken/Rectangle.jpg">
-                            <img class="autor" src="imgtoken/author.jpg">
+                            <div class="logo-top">
+                                <img src="imgtoken/tips.png">
+                            </div>
+                            <div class="logo-center">
+                                <img src="imgtoken/dino1500.png">
+                            </div>
+                            <div class="logo-bottom">
+                                <img src="imgtoken/progress-bar.png">
+                            </div>
+                            <div class="autor">
+                                <img src="imgtoken/author.jpg">
+                            </div>
                         </div>
 
                         <div class="blok-picture8">
-                            <img class="picture" src="imgtoken/nft.jpg">
-                            <img class="picture1" src="imgtoken/pict.jpg">
-                            <p class="title-text">Дино</p>
-                            <p class="title-number">1500 ₽</p>
-                            <p class="title-number1">0 / 1000</p>
-                            <img class="picture" src="imgtoken/Rectangle.jpg">
-                            <img class="autor" src="imgtoken/author.jpg">
+                            <div class="logo-top">
+                                <img src="imgtoken/tips.png">
+                            </div>
+                            <div class="logo-center">
+                                <img src="imgtoken/dino1500.png">
+                            </div>
+                            <div class="logo-bottom">
+                                <img src="imgtoken/progress-bar.png">
+                            </div>
+                            <div class="autor">
+                                <img src="imgtoken/author.jpg">
+                            </div>
                         </div>
                     </div>
 

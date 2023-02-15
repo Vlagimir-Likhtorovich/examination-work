@@ -1,3 +1,4 @@
+
 html,
 body {
     margin: 0;
@@ -12,6 +13,11 @@ header {
     max-width: 1440px;
     max-height: 79px;
     background: #FFFFFF;
+}
+
+.container {
+    padding-left: 50px;
+    padding-right: 50px;
 
 }
 
@@ -36,12 +42,31 @@ header {
 .top-content {
     border-radius: 20px;
     background: #C5EC00;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+
+    height: 1000px;
+
 }
 
+.dopcontent {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 45px;
+    padding-left: 40px;
+}
+
+.top-content-left {
+    padding-left: 20px;
+}
+
+
+.shop-picture {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0C0C0C;
+    padding-left: 41px;
+}
 
 
 
@@ -65,13 +90,21 @@ header {
 }
 
 .top-content-right {
-    padding: auto;
 
+    padding-top: 65px;
+    margin-left: 150px;
 }
 
-.dino-picture {
-    padding: auto;
+.line {
+    border: 2px solid #0C0C0C;
+    margin-left: 40px;
+    margin-right: 48px;
+    margin-top: 70px;
+    margin-bottom: 80px;
 }
+
+
+
 
 .send {
     width: 300px;
@@ -87,15 +120,37 @@ header {
 
 }
 
+.recent-works {
+    padding-top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #0C0C0C;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+
+}
+
 .top-content-center {
+
+
     display: flex;
-    gap: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 500px;
 
 }
 
 
 .bottom-content-center {
+
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 500px;
 
 }
 
@@ -104,6 +159,28 @@ header {
     background-image: url(imgtoken/dino1.png);
     background-repeat: no-repeat;
 
+}
+
+.logo-top {
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+    padding-top: 15px;
+}
+
+.logo-center {
+    margin-top: 215px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.logo-bottom {
+    padding-left: 25px;
+}
+
+.autor {
+    padding-left: 30px;
+    padding-top: 8px;
 }
 
 .blok-picture2 {
