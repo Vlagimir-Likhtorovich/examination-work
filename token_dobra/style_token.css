@@ -64,6 +64,12 @@ header {
     font-size: 16px;
     line-height: 25px;
 
+
+
+
+
+
+
 }
 
 .dino-picture {
@@ -367,8 +373,6 @@ header {
 }
 
 
-
-
 .text1-right-shop-galery {
     font-family: 'Montserrat';
     font-style: normal;
@@ -377,27 +381,98 @@ header {
     color: #0C0C0C;
 }
 
+.acor-container {
+margin-top:100px ;
+margin-bottom: 100px;
+}
 
+.acor-container .acor-body {
+width: calc(100% );
+margin: 0 auto;
+height: 0;
+color:  #0C0C0C;;
+background-color:#FFFFFF;
+line-height: 27px;
+padding: 0 30px;
+box-sizing: border-box;
+transition: color 0.5s, padding 0.5s;
+overflow: hidden;
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 10px 16px rgba(0, 0, 0, 0.2);
+}
 
+.acor-container .acor-body p {
+margin: 0 0 10px;
+}
 
+.acor-container label {
+cursor: pointer;
+background-color:#FFFFFF;
+display: block;
+padding: 15px 20px;
+width: 100%;
+color: #0C0C0C;;
+font-weight: 500;
+box-sizing: border-box;
+z-index: 100;
+font-family:'Montserrat', sans-serif; ;
+font-size: 28px;
+line-height: 36px;
+margin: 0 0 5px;
+transition: color .35s;
+}
 
+.acor-container label:hover {
+color: #FFF;
+}
 
+.acor-container input {
+display: none;
+}
 
+.acor-container label:before {
+content: '\276F';
+float: right;
+}
 
+.acor-container input:checked+label {
+background-color: white;
+color: black;
+box-shadow: 0 8px 26px rgba(0, 0, 0, 0.4), 0 28px 30px rgba(0, 0, 0, 0.3);
+}
 
+.acor-container input:checked+label:before {
+transition: transform .35s;
+transform: rotate(90deg);
+}
 
-
+.acor-container input:checked+label+.acor-body {
+height: auto;
+margin-top: -5px;
+color: #000;
+padding: 20px 30px 10px;
+}
 
 footer {
-    display: flex;
     background: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 20px 20px;
+    gap: 100px;
+    height: 300px;
+
 
 }
 
-.block-footer {
+.menu-footer {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+}
 
+.menu-footer-right {
+    display: flex;
+    gap: 50px;
 }
 
 .link-footer {
@@ -414,6 +489,11 @@ footer {
 
 }
 
-.menu-footer {
+.connectivity,
+.footer-information,
+.footer-navigation {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
 }
