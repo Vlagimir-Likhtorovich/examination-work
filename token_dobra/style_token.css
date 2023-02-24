@@ -64,6 +64,7 @@ header {
     font-size: 16px;
     line-height: 25px;
 
+
 }
 
 .dino-picture {
@@ -73,8 +74,9 @@ header {
 .top-content {
     border-radius: 20px;
     background: #C5EC00;
+    background-size: cover;
 
-    height: 1000px;
+
 
 }
 
@@ -138,7 +140,7 @@ header {
 
 
 .send {
-    width: 300px;
+    max-width: 300px;
     height: 65px;
     background: #0C0C0C;
     border-radius: 15px;
@@ -159,7 +161,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 500px;
+    padding-bottom: 60px;
 
 }
 
@@ -169,7 +171,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 500px;
+    /*height: 500px;*/
 
 }
 
@@ -177,6 +179,7 @@ header {
 .blok-picture1 {
     background-image: url(imgtoken/dino1.png);
     background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -210,43 +213,44 @@ header {
 .blok-picture2 {
     background-image: url(imgtoken/man.png);
     background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
 .blok-picture3 {
     background-image: url(imgtoken/abstract.png);
     background-repeat: no-repeat;
-
+    background-size: cover;
 }
 
 .blok-picture4 {
     background-image: url(imgtoken/man2.png);
     background-repeat: no-repeat;
-
+    background-size: cover;
 }
 
 .blok-picture5 {
     background-image: url(imgtoken/abstract1.png);
     background-repeat: no-repeat;
-
+    background-size: cover;
 }
 
 .blok-picture6 {
     background-image: url(imgtoken/girl.png);
     background-repeat: no-repeat;
-
+    background-size: cover;
 }
 
 .blok-picture7 {
     background-image: url(imgtoken/bird.png);
     background-repeat: no-repeat;
-
+    background-size: cover;
 }
 
 .blok-picture8 {
     background-image: url(imgtoken/cat.png);
     background-repeat: no-repeat;
-
+    background-size: cover;
 }
 
 .title-text {
@@ -288,12 +292,13 @@ header {
 .funds-top,
 .funds-bottom {
     background-image: url(imgtoken/bg.png);
+    background-size: cover;
     border-radius: 20px;
     box-sizing: border-box;
     display: flex;
     padding: 40px;
     gap: 40px;
-    max-height: 504px;
+
 
 }
 
@@ -335,7 +340,7 @@ header {
 }
 
 .funds2 {
-    max-width: 1360px;
+    /*max-width: 1360px;*/
     margin-bottom: 40px;
 }
 
@@ -454,6 +459,7 @@ header {
 
 footer {
     background: #F4F4F4;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     padding: 80px 20px 20px;
@@ -500,4 +506,69 @@ footer {
 
 .footer-navigation {
     padding-top: 50px;
+}
+
+.mobil-menu-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.mobil-logo-footer {
+    padding-top: 10px;
+}
+
+
+
+@media (max-width: 500px) {
+
+    .navigation-right {
+        display: none;
+    }
+
+    .top-content-center,
+    .bottom-content-center {
+        flex-wrap: wrap;
+        row-gap: 50px;
+        justify-content: space-around;
+    }
+
+    .funds-top-right,
+    .funds-bottom-right {
+        background-repeat: repeat;
+        flex-wrap: wrap;
+        row-gap: 50px;
+        justify-content: space-around;
+    }
+
+
+    .shop-galery {
+        display: block;
+    }
+
+    .right-shop-galery {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0px;
+
+    }
+
+    .logo-footer {
+        display: none;
+    }
+
+    .menu-footer {
+        display: none;
+
+    }
+
+}
+
+@media (min-width: 500px) {
+    .mobil-menu-footer {
+        display: none;
+
+
+    }
+
 }
