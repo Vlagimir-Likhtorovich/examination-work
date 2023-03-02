@@ -1,6 +1,4 @@
 
-
-
 html,
 body {
     margin: 0;
@@ -20,15 +18,13 @@ header {
 }
 
 
-
-
-
 .mobil-link-header {
     text-decoration: none;
     display: flex;
     align-items: center;
     text-align: center;
-    color: rgba(0, 0, 0, 0.5);
+    color: #0c0c0c;
+    ;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -40,6 +36,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
 
 .mobil-menu {
@@ -47,15 +44,12 @@ header {
     right: 0;
     top: 0;
 }
-
-
-
 .content-mobil-menu {
     width: 320px;
     height: 362px;
     background-color: #FFFFFF;
-    ;
-    border: 1px solid;
+    border: 1px solid #13131375;
+    box-shadow: 0 0 15px 2px rgb(0 0 0 / 40%);
 
 }
 
@@ -66,17 +60,12 @@ header {
 
 }
 
-
-
 .press {
     display: flex;
     flex-direction: row;
     justify-content: center;
 
 }
-
-
-
 
 .mobil-header {
     display: flex;
@@ -86,17 +75,15 @@ header {
     padding-top: 30px;
 }
 
-.button-header {
+.button-header-mobil {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 12px 30px;
     gap: 10px;
-
     width: 288px;
     height: 48px;
-
     border: 2px solid #0C0C0C;
     border-radius: 9px;
 
@@ -116,6 +103,10 @@ header {
 
 }
 
+.write_to_us {
+    color: rgba(159, 151, 151, 1);
+}
+
 
 .hidden {
     display: none;
@@ -131,6 +122,32 @@ header {
 
 }
 
+
+@media (max-width: 960px) {
+
+    .mobil-header,
+    .container {
+        padding-top: 25px;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .container .mobil-header,
+    .container .top-content {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .container_container-footer {
+        padding-left: 0 !important;
+    }
+}
 
 .navigation-left {
     display: flex;
@@ -168,7 +185,9 @@ header {
     border-radius: 11px;
     font-family: 'Montserrat';
     font-style: normal;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    background: transparent;
     line-height: 25px;
     white-space: nowrap;
 
@@ -186,7 +205,7 @@ header {
     background: #C5EC00;
     background-size: cover;
     padding: 60px 40px;
-
+    box-sizing: border-box;
 
 
 
@@ -710,7 +729,7 @@ footer {
     .bottom-content-center {
         flex-wrap: wrap;
         row-gap: 50px;
-        justify-content: space-around;
+        justify-content: center;
     }
 
     .funds-top-right,
@@ -777,24 +796,14 @@ footer {
 
 
 
-    .top-content-center {
-        display: flex;
-        flex-direction: row;
-
-        justify-content: space-between;
-        gap: 25px;
-    }
-
-
-
+    .top-content-center,
     .bottom-content-center {
         display: flex;
         flex-direction: row;
-
-        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 25px;
     }
-
 
 }
 
@@ -906,7 +915,8 @@ footer {
     }
 
     .send {
-        width: 320px;
+        width: 100%;
+        display: inline-block;
     }
 
 }
@@ -916,7 +926,6 @@ footer {
         width: 100%;
     }
 }
-
 
 
 
