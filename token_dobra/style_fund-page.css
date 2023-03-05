@@ -1,4 +1,3 @@
-
 html,
 body {
     margin: 0;
@@ -6,7 +5,6 @@ body {
     box-sizing: border-box;
     font-family: 'Montserrat', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 header {
     position: sticky;
     display: flex;
@@ -16,22 +14,18 @@ header {
     background: #FFFFFF;
     padding-left: 7px;
 }
-
-
 .mobil-link-header {
     text-decoration: none;
     display: flex;
     align-items: center;
     text-align: center;
     color: #0c0c0c;
-    ;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
 }
-
 .mobil {
     display: flex;
     flex-direction: column;
@@ -44,14 +38,12 @@ header {
     right: 0;
     top: 0;
 }
-
 .content-mobil-menu {
     width: 320px;
     height: 362px;
     background-color: #FFFFFF;
     border: 1px solid #13131375;
     box-shadow: 0 0 15px 2px rgb(0 0 0 / 40%);
-
 }
 
 .mobil-menu-top {
@@ -60,14 +52,11 @@ header {
     padding: 15px;
 
 }
-
 .press {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
-
 .mobil-header {
     display: flex;
     justify-content: space-between;
@@ -75,7 +64,6 @@ header {
     padding-right: 45px;
     padding-top: 30px;
 }
-
 .button-header-mobil {
     display: flex;
     flex-direction: row;
@@ -88,8 +76,6 @@ header {
     border: 2px solid #0C0C0C;
     border-radius: 9px;
 }
-
-
 .mobil-navigation {
     display: flex;
     flex-direction: column;
@@ -100,29 +86,21 @@ header {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-
 }
 
 .write_to_us {
     color: rgba(159, 151, 151, 1);
 }
 
-
 .hidden {
     display: none;
 }
-
-
 .container {
     max-width: 1440px;
     box-sizing: border-box;
     padding: 40px;
     margin: 0 auto;
-
 }
-
-
-
 
 .navigation-left {
     display: flex;
@@ -134,7 +112,6 @@ header {
     justify-content: end;
     gap: 15px;
     margin-bottom: 20px;
-
 }
 
 .link-header {
@@ -148,7 +125,6 @@ header {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-
 }
 
 
@@ -165,9 +141,6 @@ header {
     line-height: 25px;
     white-space: nowrap;
 }
-
-
-
 .top-content {
     border-radius: 20px;
     background-image: url(imgtoken/fon.png);
@@ -177,7 +150,6 @@ header {
     max-width: 1440px;
     height: 668px;
 }
-
 .dopcontent {
     font-family: 'Montserrat';
     font-style: normal;
@@ -188,24 +160,19 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
 }
-
 .card-content-center {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 20px;
-
 }
-
 .bottom-content-center {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
 }
-
 .bet {
     display: flex;
     flex-direction: column;
@@ -215,7 +182,6 @@ header {
     width: 285px;
 
 }
-
 .text-description {
     display: flex;
     flex-direction: row;
@@ -225,7 +191,6 @@ header {
     padding-right: 150px;
 
 }
-
 .description {
     font-family: 'Montserrat';
     font-style: normal;
@@ -234,10 +199,8 @@ header {
     line-height: 27px;
     color: #0C0C0C;
     max-width: 771px;
-    max-height: 189px;
+    text-align: justify;
 }
-
-
 .galery {
     display: flex;
     padding: 94px 20px;
@@ -246,11 +209,9 @@ header {
     background-size: cover;
     background-repeat: repeat;
 }
-
 .shop-galery {
     display: flex;
     gap: 40px;
-
 }
 
 .right-shop-galery {
@@ -264,7 +225,6 @@ header {
     font-size: 40px;
     line-height: 105.9%;
     color: #0C0C0C;
-
 }
 
 
@@ -308,12 +268,10 @@ header {
     padding: 15px 20px;
     width: 100%;
     color: #0C0C0C;
-    ;
     font-weight: 500;
     box-sizing: border-box;
     z-index: 100;
     font-family: 'Montserrat', sans-serif;
-    ;
     font-size: 28px;
     line-height: 36px;
     margin: 0 0 5px;
@@ -350,7 +308,6 @@ header {
     color: #000;
     padding: 20px 30px 10px;
 }
-
 
 footer {
     background: #F4F4F4;
@@ -398,7 +355,6 @@ footer {
     gap: 5px;
 }
 
-
 .footer-navigation {
     padding-top: 50px;
 }
@@ -413,29 +369,55 @@ footer {
     padding-top: 10px;
 }
 
-@media (max-width: 960px) {
+@media (min-width: 960px) {
+    .mobil-menu-footer {
+        display: none;
+    }
 
-    .mobil-header,
-    .container {
-        padding-top: 25px;
+    .mobil-logo {
+        display: none;
+    }
+
+    .open-menu {
+        display: none;
+    }
+
+    .mobil-header {
+        display: none;
     }
 }
 
-@media (max-width: 450px) {
-
-    .container {
-        padding-left: 0;
-        padding-right: 0;
+@media (max-width: 1230px) {
+    .dopcontent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
     }
 
-    .container .mobil-header,
-    .container .top-content {
-        padding-left: 5px;
-        padding-right: 5px;
+    .card-content-center {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
     }
 
-    .container_container-footer {
-        padding-left: 0 !important;
+    .bet {
+        padding-left: 75px;
+    }
+
+    .top-content-text {
+        padding-left: 80px;
+    }
+}
+
+@media (max-width: 1060px) {
+    .text-description {
+        display: flex;
+        justify-content: center;
+        padding-right: 0px;
     }
 }
 
@@ -463,7 +445,6 @@ footer {
         display: flex;
         flex-wrap: wrap;
         padding-left: 0px;
-
     }
 
     .logo-footer {
@@ -472,57 +453,58 @@ footer {
 
     .menu-footer {
         display: none;
-
     }
 
-
-}
-
-@media (min-width: 960px) {
-    .mobil-menu-footer {
-        display: none;
-    }
-
-    .mobil-logo {
-        display: none;
-    }
-
-    .open-menu {
-        display: none;
-    }
-
-    .mobil-header {
-        display: none;
+    .mobil-header,
+    .container {
+        padding-top: 25px;
     }
 
 }
 
-@media (max-width: 1230px) {
-    .dopcontent {
-
-        flex-direction: column-reverse;
+@media (max-width: 800px) {
+    .bet {
+        position: absolute;
+        top: 665px;
+        left: 35px;
         align-items: center;
-
-
     }
+}
 
-    .card-content-center {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 25px;
+@media (max-width: 620px) {
+    .top-content-text {
+        font-size: 40px;
+        line-height: 41px;
     }
-
 }
 
 @media (max-width: 502px) {
     .picture-galery {
         max-width: 100%;
         height: auto;
+    }
+    .text-description { 
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
 
+@media (max-width: 450px) {
+
+    .container {
+        padding-left: 0;
+        padding-right: 0;
     }
 
+    .container .mobil-header,
+    .container .top-content {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 
-
+    .container_container-footer {
+        padding-left: 0 !important;
+    }
+    .bet { left: -60px;   
+    }
 }
