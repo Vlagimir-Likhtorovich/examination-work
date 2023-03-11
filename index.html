@@ -10,34 +10,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style_token.css">
+    <link rel="stylesheet" href="script_token.js">
     <title>TokenDobra</title>
 
 
 
     <style>
-      
+       
+   
+
+    
     </style>
 </head>
-<script> window.addEventListener("DOMContentLoaded", function () {
-        document.querySelector(".open-menu").addEventListener("click", function () {
-            document.querySelector(".mobil-menu").classList.toggle("hidden");
-        });
-
-        document.body.addEventListener("click", function (e) {
-            if (!e.target.closest(".open-menu")) {
-                document.querySelector(".mobil-menu").classList.add("hidden");
-            }
-        });
-    });
-
-
+<script>
 
 </script>
 
-
-
-
-<body>
+<body class="index-page">
     <div class="header-row">
         <header class="mobil-header">
             <div class="mobil-logo"> <a href="TOKENDOBRA">
@@ -186,24 +175,10 @@
 
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
         </header>
-
     </div>
-
     <div class="container">
         <header>
-
-
             <nav class="navigation-left">
                 <a href="TOKENDOBRA">
 
@@ -254,23 +229,14 @@
                             fill="black" />
                     </svg>
                 </a>
-
-
             </nav>
-
-
             <nav class="navigation-right">
                 <a href="Зачем это все" class="link-header"> Зачем это все</a>
                 <a href=" Что такое pre-NFT" class="link-header"> Что такое pre-NFT</a>
                 <a href="FAQ" class="link-header"> FAQ</a>
                 <button class="button-header"> Расскажите о нас</button>
             </nav>
-
-
         </header>
-
-
-
         <main>
             <div class="content">
                 <div class="top-content">
@@ -281,7 +247,7 @@
                                 <br> с картинами особенных детей и подростков
                             </h1>
                             <button class="send">Посмотреть все картины</button>
-                            <p class="card"> Чтобы зарезервировать NFT, нужна только банковская карта.
+                            <p class="bank-card"> Чтобы зарезервировать NFT, нужна только банковская карта.
                                 <br>Криптовалюта и
                                 Web3-кошелёк вам <b>не
                                     понадобятся.</b>
@@ -303,23 +269,18 @@
                             цифровой копией картины или её оригиналом, в зависимости от того, какой токен вы
                             приобрели.
                         </p>
-
                     </div>
-
                 </div>
-
-
                 <div class="recent-works">Последние работы </div>
-
-
-
                 <div class="content-center">
                     <div class="top-content-center">
 
                         <div class="block-picture1">
                             <div class="block-top">
-                                <div class="logo-top"><img src="imgtoken/tips.png"></div>
-
+                                <div class="logo-top">
+                                    <div class="logo-top-text">pre-NFT </div>
+                                    <div class="logo-bottom-text">картина</div>
+                                </div>
 
                             </div>
                             <div class="block-bottom">
@@ -328,14 +289,19 @@
                                     <div>1500 &#8381</div>
                                     <div class="price2">0/100 </div>
                                 </div>
-                                <img class="bar" src="imgtoken/progress-bar.png">
-                                <img class="img-autor" src="imgtoken/author.jpg">
+                                <div class="progress-bar-works">
+                                    <div class="progress-bar-works-completed"></div>
+                                </div>
+                                <div class="text-autor"> Олег Орлов</div>
                             </div>
                         </div>
 
                         <div class="block-picture2">
                             <div class="block-top">
-                                <div class="logo-top"><img src="imgtoken/tips.png"></div>
+                                <div class="logo-top">
+                                    <div class="logo-top-text">pre-NFT </div>
+                                    <div class="logo-bottom-text">картина</div>
+                                </div>
 
                             </div>
                             <div class="block-bottom">
@@ -344,31 +310,42 @@
                                     <div>1500 &#8381</div>
                                     <div class="price2">0/100 </div>
                                 </div>
-                                <img class="bar" src="imgtoken/progress-bar.png">
-                                <img class="img-autor" src="imgtoken/author.jpg">
+                                <div class="progress-bar-works">
+                                    <div class="progress-bar-works-completed"></div>
+                                </div>
+                                <div class="text-autor"> Олег Орлов</div>
                             </div>
                         </div>
 
                         <div class="block-picture3">
                             <div class="block-top">
-                                <div class="logo-top"><img src="imgtoken/tips.png"></div>
-                            </div>
+                                <div class="logo-top">
+                                    <div class="logo-top-text">pre-NFT </div>
+                                    <div class="logo-bottom-text">картина</div>
+                                </div>
 
+                            </div>
                             <div class="block-bottom">
                                 <p class="price"> Дино </p>
                                 <div class="price1">
                                     <div>1500 &#8381</div>
                                     <div class="price2">0/100 </div>
                                 </div>
-                                <img class="bar" src="imgtoken/progress-bar.png">
-                                <img class="img-autor" src="imgtoken/author.jpg">
+                                <div class="progress-bar-works">
+                                    <div class="progress-bar-works-completed"></div>
+                                </div>
+                                <div class="text-autor"> Олег Орлов</div>
                             </div>
                         </div>
 
 
                         <div class="block-picture4">
                             <div class="block-top">
-                                <div class="logo-top"> <img src="imgtoken/tips.png"></div>
+                                <div class="logo-top">
+                                    <div class="logo-top-text">pre-NFT </div>
+                                    <div class="logo-bottom-text">картина</div>
+                                </div>
+
                             </div>
                             <div class="block-bottom">
                                 <p class="price"> Дино </p>
@@ -376,8 +353,10 @@
                                     <div>1500 &#8381</div>
                                     <div class="price2">0/100 </div>
                                 </div>
-                                <img class="bar" src="imgtoken/progress-bar.png">
-                                <img class="img-autor" src="imgtoken/author.jpg">
+                                <div class="progress-bar-works">
+                                    <div class="progress-bar-works-completed"></div>
+                                </div>
+                                <div class="text-autor"> Олег Орлов</div>
                             </div>
                         </div>
                     </div>
@@ -385,7 +364,11 @@
                     <div class="bottom-content-center">
                         <div class="block-picture5">
                             <div class="block-top">
-                                <div class="logo-top"><img src="imgtoken/tips.png"></div>
+                                <div class="logo-top">
+                                    <div class="logo-top-text">pre-NFT </div>
+                                    <div class="logo-bottom-text">картина</div>
+                                </div>
+
                             </div>
                             <div class="block-bottom">
                                 <p class="price"> Дино </p>
@@ -393,14 +376,19 @@
                                     <div>1500 &#8381</div>
                                     <div class="price2">0/100 </div>
                                 </div>
-                                <img class="bar" src="imgtoken/progress-bar.png">
-                                <img class="img-autor" src="imgtoken/author.jpg">
+                                <div class="progress-bar-works">
+                                    <div class="progress-bar-works-completed"></div>
+                                </div>
+                                <div class="text-autor"> Олег Орлов</div>
                             </div>
                         </div>
 
                         <div class="block-picture6">
                             <div class="block-top">
-                                <div class="logo-top"><img src="imgtoken/tips.png"></div>
+                                <div class="logo-top">
+                                    <div class="logo-top-text">pre-NFT </div>
+                                    <div class="logo-bottom-text">картина</div>
+                                </div>
 
                             </div>
                             <div class="block-bottom">
@@ -409,14 +397,18 @@
                                     <div>1500 &#8381</div>
                                     <div class="price2">0/100 </div>
                                 </div>
-                                <img class="bar" src="imgtoken/progress-bar.png">
-                                <img class="img-autor" src="imgtoken/author.jpg">
+                                <div class="progress-bar-works">
+                                    <div class="progress-bar-works-completed"></div>
+                                </div>
+                                <div class="text-autor"> Олег Орлов</div>
                             </div>
                         </div>
 
                         <div class="block-picture7">
                             <div class="block-top">
-                                <div class="logo-top"> <img src="imgtoken/tips.png">
+                                <div class="logo-top">
+                                    <div class="logo-top-text">pre-NFT </div>
+                                    <div class="logo-bottom-text">картина</div>
                                 </div>
 
                             </div>
@@ -426,14 +418,19 @@
                                     <div>1500 &#8381</div>
                                     <div class="price2">0/100 </div>
                                 </div>
-                                <img class="bar" src="imgtoken/progress-bar.png">
-                                <img class="img-autor" src="imgtoken/author.jpg">
+                                <div class="progress-bar-works">
+                                    <div class="progress-bar-works-completed"></div>
+                                </div>
+                                <div class="text-autor"> Олег Орлов</div>
                             </div>
                         </div>
 
                         <div class="block-picture8">
                             <div class="block-top">
-                                <div class="logo-top"> <img src="imgtoken/tips.png"></div>
+                                <div class="logo-top">
+                                    <div class="logo-top-text">pre-NFT </div>
+                                    <div class="logo-bottom-text">картина</div>
+                                </div>
 
                             </div>
                             <div class="block-bottom">
@@ -442,16 +439,17 @@
                                     <div>1500 &#8381</div>
                                     <div class="price2">0/100 </div>
                                 </div>
-                                <img class="bar" src="imgtoken/progress-bar.png">
-                                <img class="img-autor" src="imgtoken/author.jpg">
+                                <div class="progress-bar-works">
+                                    <div class="progress-bar-works-completed"></div>
+                                </div>
+                                <div class="text-autor"> Олег Орлов</div>
                             </div>
                         </div>
                     </div>
 
                 </div>
 
-
-                <div class="recent-works"> Фонды </div>
+                <div class="link-funds"> <a href="funds.html" style="color:#0C0C0C;">Фонды</a> </div>
 
                 <div class="funds">
                     <div class="funds-top">
@@ -466,122 +464,213 @@
                         </div>
 
                         <div class="funds-top-right">
-                            <div> <img src="imgtoken/nft_fond.png"></div>
+                            <div class="card">
+                                <div> <img src="imgtoken/dinaa.png"></div>
+                                <div class="text-card">
+                                    <div class="text-card-price">
+                                        1500 &#8381
+                                    </div>
+                                    <div class="text-card-autor">
+                                        Олег Орлов
+                                    </div>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-bar-completed"></div>
+                                </div>
+                                <div class="level"> 0 / 1000</div>
+                            </div>
 
-                            <div> <img src="imgtoken/nft_man.png"></div>
-                            <div> <img src="imgtoken/nft_abstract.png"></div>
+                            <div class="card">
+                                <div> <img src="imgtoken/man-dark.png"></div>
+                                <div class="text-card">
+                                    <div class="text-card-price">
+                                        1500 &#8381
+                                    </div>
+                                    <div class="text-card-autor">
+                                        Олег Орлов
+                                    </div>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-bar-completed"></div>
+                                </div>
+                                <div class="level"> 0 / 1000</div>
+                            </div>
+
+                            <div class="card">
+                                <div> <img src="imgtoken/image-lips.png"></div>
+                                <div class="text-card">
+                                    <div class="text-card-price">
+                                        1500 &#8381
+                                    </div>
+                                    <div class="text-card-autor">
+                                        Олег Орлов
+                                    </div>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-bar-completed"></div>
+                                </div>
+                                <div class="level"> 0 / 1000</div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="funds2">
+                <div class="funds-bottom">
+                    <div class="funds-bottom-left">
+                        <img class="chess" src="imgtoken/chess.png">
+                        <p class="remark">Красный <br>Перечный Кот</p>
+                        <p class="remark-price">10 картин | 10 000 NFT</p>
+
+                        <p class="remark-fund">Фонд для поддержки и адаптации детей с аутизмом</p>
+                    </div>
+
+                    <div class="funds-bottom-right">
+
+                        <div class="card">
+                            <div> <img src="imgtoken/man-svet.png"></div>
+                            <div class="text-card">
+                                <div class="text-card-price">
+                                    1500 &#8381
+                                </div>
+                                <div class="text-card-autor">
+                                    Олег Орлов
+                                </div>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-completed"></div>
+                            </div>
+                            <div class="level"> 0 / 1000</div>
+                        </div>
+
+
+                        <div class="card">
+                            <div> <img src="imgtoken/voron-svet.png"></div>
+                            <div class="text-card">
+                                <div class="text-card-price">
+                                    1500 &#8381
+                                </div>
+                                <div class="text-card-autor">
+                                    Олег Орлов
+                                </div>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-completed"></div>
+                            </div>
+                            <div class="level"> 0 / 1000</div>
+                        </div>
+
+                        <div class="card">
+                            <div> <img src="imgtoken/girl-svet.png"></div>
+                            <div class="text-card">
+                                <div class="text-card-price">
+                                    1500 &#8381
+                                </div>
+                                <div class="text-card-autor">
+                                    Олег Орлов
+                                </div>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-completed"></div>
+                            </div>
+                            <div class="level"> 0 / 1000</div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="funds2">
-                    <div class="funds-bottom">
-                        <div class="funds-bottom-left">
-                            <img class="chess" src="imgtoken/chess.png">
-                            <p class="remark">Красный <br>Перечный Кот</p>
-                            <p class="remark-price">10 картин | 10 000 NFT</p>
 
-                            <p class="remark-fund">Фонд для поддержки и адаптации детей с аутизмом</p>
-                        </div>
-
-                        <div class="funds-bottom-right">
-
-                            <div> <img class="pic" src="imgtoken/nft_man22.png"></div>
-                            <div> <img class="pic" src="imgtoken/nft_bird.png"></div>
-                            <div><img class="pic" src="imgtoken/nft_girl.png"></div>
-                        </div>
+            <div class="galery">
+                <div class="shop-galery">
+                    <div class="left-shop-galery">
+                        <img class="picture-galery" src="imgtoken/anima.png">
                     </div>
-                </div>
-
-
-                <div class="galery">
-                    <div class="shop-galery">
-                        <div class="left-shop-galery">
-                            <img class="picture-galery" src="imgtoken/anima.png">
-                        </div>
-                        <div class="right-shop-galery">
-                            <p class="text-right-shop-galery">Купить NFT очень просто</p>
-                            <p class="text1-right-shop-galery">В нашей галерее вы покупаете pre-NFT. Это ваучер,
-                                резервирующий NFT-картину. Для покупки
-                                pre-NFT нужна только банковская карта, Web3-кошелёк и криптовалюта не понадобятся.
-                                Этот
-                                упрощённый вариант покупки NFT подойдёт всем, особенно тем, кто ещё не начал
-                                разбираться
-                                в
-                                технологии Web3. Обменять свой pre-NFT на NFT-токен можно в любой момент при наличии
-                                у
-                                вас
-                                криптокошелька.</p>
-                        </div>
-
+                    <div class="right-shop-galery">
+                        <p class="text-right-shop-galery">Купить NFT очень просто</p>
+                        <p class="text1-right-shop-galery">В нашей галерее вы покупаете pre-NFT. Это ваучер,
+                            резервирующий NFT-картину. Для покупки
+                            pre-NFT нужна только банковская карта, Web3-кошелёк и криптовалюта не понадобятся.
+                            Этот
+                            упрощённый вариант покупки NFT подойдёт всем, особенно тем, кто ещё не начал
+                            разбираться
+                            в
+                            технологии Web3. Обменять свой pre-NFT на NFT-токен можно в любой момент при наличии
+                            у
+                            вас
+                            криптокошелька.</p>
                     </div>
-                </div>
-                <div class="acor-container">
-
-                    <input type="radio" name="acor" id="acor1" checked="checked" />
-                    <label for="acor1">Зачем мне покупать картину в цифровом
-                        формате?</label>
-                    <div class="acor-body">
-                        <p>Картину в цифровом формате вы можете разместить фоновым изображением на рабочем
-                            столе Вашего устройства.</p>
-                    </div>
-
-                    <hr>
-
-                    <input type="radio" name="acor" id="acor2" />
-                    <label for="acor2"> Кто получает деньги с продажи картины?</label>
-                    <div class="acor-body">
-                        <p>Деньги с продажи всех картин перечисляются на счета благотворительного фонда для
-                            оказание помощи и поддержки детям с растройствами аутического спектра и их родителям.
-                        </p>
-                    </div>
-
-                    <hr>
-
-                    <input type="radio" name="acor" id="acor3" />
-                    <label for="acor3">Что такое pre-NFT?</label>
-                    <div class="acor-body">
-                        <p>Предпродажные NFT, известная как предварительная продажа токенов, представляет
-                            собой возможность, предоставляемую инвесторам для приобретения NFT по более низкой цене,
-                            еще
-                            до его
-                            официального выпуска на рынок.</p>
-                    </div>
-
-                    <hr>
-
-                    <input type="radio" name="acor" id="acor4" />
-                    <label for="acor4">Как я могу купить оригинал картины?</label>
-                    <div class="acor-body">
-                        <p>Для приобретения ориганала картины Вам необходимо лично посетить нашу галерею!</p>
-                    </div>
-
-                    <hr>
-
-                    <input type="radio" name="acor" id="acor5" />
-                    <label for="acor5">Вы точно переводите деньги фондам?</label>
-                    <div class="acor-body">
-                        <p>Абсолютно точно! Деньги с продаж картин переводятся на счета благотоворительных
-                            фондов.
-                            При необходимости Вы можете получить интересующую Вас информацию отправив обращение в
-                            соответствии с действующим законодательством.</p>
-                    </div>
-
-                    <hr>
-
-                    <input type="radio" name="acor" id="acor6" />
-                    <label for="acor6">Зарабатывает ли ваша галерея с продаж
-                        картин?</label>
-                    <div class="acor-body">
-                        <p> Наша галерея денег с продаж картин не зарабатывает. Мы лишь компенсируем наши
-                            издержки, связанные функционированием нашей галереи ( оплата счетов, налогов и прочих
-                            платежей в
-                            соответствиии с требованиями законодательства).</p>
-                    </div>
-                    <hr>
-
 
                 </div>
+            </div>
+            <div class="acor-container">
+
+                <input type="radio" name="acor" id="acor1" checked="checked" />
+                <label for="acor1">Зачем мне покупать картину в цифровом
+                    формате?</label>
+                <div class="acor-body">
+                    <p>Картину в цифровом формате вы можете разместить фоновым изображением на рабочем
+                        столе Вашего устройства.</p>
+                </div>
+
+                <hr>
+
+                <input type="radio" name="acor" id="acor2" />
+                <label for="acor2"> Кто получает деньги с продажи картины?</label>
+                <div class="acor-body">
+                    <p>Деньги с продажи всех картин перечисляются на счета благотворительного фонда для
+                        оказание помощи и поддержки детям с растройствами аутического спектра и их родителям.
+                    </p>
+                </div>
+
+                <hr>
+
+                <input type="radio" name="acor" id="acor3" />
+                <label for="acor3">Что такое pre-NFT?</label>
+                <div class="acor-body">
+                    <p>Предпродажные NFT, известная как предварительная продажа токенов, представляет
+                        собой возможность, предоставляемую инвесторам для приобретения NFT по более низкой цене,
+                        еще
+                        до его
+                        официального выпуска на рынок.</p>
+                </div>
+
+                <hr>
+
+                <input type="radio" name="acor" id="acor4" />
+                <label for="acor4">Как я могу купить оригинал картины?</label>
+                <div class="acor-body">
+                    <p>Для приобретения ориганала картины Вам необходимо лично посетить нашу галерею!</p>
+                </div>
+
+                <hr>
+
+                <input type="radio" name="acor" id="acor5" />
+                <label for="acor5">Вы точно переводите деньги фондам?</label>
+                <div class="acor-body">
+                    <p>Абсолютно точно! Деньги с продаж картин переводятся на счета благотоворительных
+                        фондов.
+                        При необходимости Вы можете получить интересующую Вас информацию отправив обращение в
+                        соответствии с действующим законодательством.</p>
+                </div>
+
+                <hr>
+
+                <input type="radio" name="acor" id="acor6" />
+                <label for="acor6">Зарабатывает ли ваша галерея с продаж
+                    картин?</label>
+                <div class="acor-body">
+                    <p> Наша галерея денег с продаж картин не зарабатывает. Мы лишь компенсируем наши
+                        издержки, связанные функционированием нашей галереи ( оплата счетов, налогов и прочих
+                        платежей в
+                        соответствиии с требованиями законодательства).</p>
+                </div>
+                <hr>
+
+
+            </div>
         </main>
     </div>
     <footer>
@@ -637,8 +726,6 @@
                 </a>
             </div>
 
-
-
             <div class="block-footer">
                 <div class="menu-footer">
                     <div class="footer-navigation">
@@ -664,7 +751,6 @@
                         </div>
                     </div>
                 </div>
-
 
                 <div class=" mobil-menu-footer">
 
@@ -740,68 +826,11 @@
                         <a href="Конфиденциальность" class="link-footer">Конфиденциальность</a>
                     </div>
                 </div>
-
-
-
-
-
-
             </div>
 
         </div>
 
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     </div>
 
