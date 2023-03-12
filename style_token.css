@@ -754,11 +754,308 @@ header {
     max-width: 771px;
     text-align: justify;
 }
+.button-header-raccoon {
+    box-sizing: border-box;
+    border: 2px solid #0C0C0C;
+    border-radius: 11px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #C5EC00;
+    line-height: 25px;
+    white-space: nowrap;
+    padding: 14px 30px;
+    height: 55px;
+   
+
+}
+
+
+.content-raccoon {
+    margin-top: 40px;
+}
 
 
 
+.top-content-raccoon {
+    border-radius: 20px;
+    background: #C5EC00;
+    background-size: cover;
+    padding: 60px 40px;
+    box-sizing: border-box;
+}
+
+.raccoon-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.picture-raccoon {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
 
 
+.send-raccoon {
+    max-width: 500px;
+    height: 65px;
+    background: #0C0C0C;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.text-raccoon {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.enot-info {
+    display: flex;
+    gap: 25px;
+}
+
+
+.enot-report-shop {
+
+    display: flex;
+    flex-direction: column;
+    padding: 30px 12px 30px 30px;
+    height: 396px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 15px;
+
+}
+
+.enot-report-block {
+
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 45px;
+    gap: 20px;
+}
+
+.enot-report-line {
+    width: 60px;
+    height: 0px;
+    border: 2px solid rgba(0, 0, 0, 0.06);
+    transform: rotate(-90deg);
+    margin-top: 33px;
+
+}
+
+
+.enot-report-autor,
+.enot-report-fund {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 15px;
+}
+
+.enot-report-name,
+.enot-report-autism {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0C0C0C;
+    border: solid 1px #F4F4F4;
+    border-radius: 10px;
+
+
+}
+
+.enot-bet {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0C0C0C;
+    padding-bottom: 15px;
+}
+
+
+
+.progress-bar-enot {
+    width: 99%;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    backdrop-filter: blur(2px);
+
+
+}
+
+.progress-bar-enot-completed {
+    background: #0C0C0C;
+    height: 100%;
+    border-radius: 8px;
+    width: 60%;
+}
+
+.report-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0C0C0C;
+
+}
+
+.enot-line {
+    width: 700px;
+    height: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.look-enot {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 5px;
+}
+
+.look-enot-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #464646;
+}
+
+
+.raccoon-shop1 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 45px;
+}
+
+.raccoon-remains {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #0C0C0C;
+}
+
+
+.enot-pole {
+    box-sizing: border-box;
+    width: 500px;
+    height: 59px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 11px;
+    margin-bottom: 12px;
+}
+
+.enot-send-shop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 60px;
+    gap: 10px;
+    width: 500px;
+    height: 59px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    background: #0C0C0C;
+    border-radius: 11px;
+    margin-bottom: 10px;
+
+}
+
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.enot-link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.hint {
+    position: relative;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+.hint-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #0C0C0C;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hint-text {
+    animation: fadeIn 0.5s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    max-width: 378px;
+    background: #0C0C0C;
+    color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.35);
+    border-radius: 11px;
+    display: none;
+}
+
+.hint-icon:hover~.hint-text {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%)
+}
+
+.bet-pole {
+    display: flex;
+}
 
 .galery {
     display: flex;
