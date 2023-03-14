@@ -1,6 +1,3 @@
-<script>
-
-
 window.addEventListener("DOMContentLoaded", function () {
     document.querySelector(".open-menu").addEventListener("click", function () {
         document.querySelector(".mobil-menu").classList.toggle("hidden");
@@ -12,4 +9,3 @@ window.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
-</script>

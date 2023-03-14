@@ -1541,8 +1541,7 @@ footer {
     }
     .enot-send-shop {
         max-width: 91%;
-       
-
+    
     }
 
 }
@@ -1604,6 +1603,7 @@ footer {
     }
 }
 
+
 @media (max-width: 452px) {
     .container {
         padding-left: 20px;
@@ -1639,9 +1639,9 @@ footer {
     }
 
     .progress-bar-enot {
-        width: 105%;
+        width: 95%;
         height: 10px;
-        margin-left: 60px;
+        margin-left: 28px;
     }
 }
 
