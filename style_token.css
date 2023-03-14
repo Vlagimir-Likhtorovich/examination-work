@@ -1511,9 +1511,10 @@ footer {
         color: #0C0C0C;
     }
 
-    .picture-raccoon {
-        max-width: 100%;
+    .raccoon {
+        max-width: 95%;
         height: auto;
+        margin-left: 30px;
 
     }
 
@@ -1525,6 +1526,23 @@ footer {
 
     .enot-report-line {
         display: none;
+    }
+
+    .enot-report-shop {
+        max-width: 90%;
+        height: auto;
+        margin-left: 40px;
+    }
+
+    .enot-pole {
+        max-width: 90%;
+      
+
+    }
+    .enot-send-shop {
+        max-width: 91%;
+       
+
     }
 
 }
@@ -1581,17 +1599,14 @@ footer {
     }
 
     .report-text {
-
         text-align: justify;
 
     }
-
 }
-
 
 @media (max-width: 452px) {
     .container {
-        padding-left: 0;
+        padding-left: 20px;
         padding-right: 0;
     }
 
