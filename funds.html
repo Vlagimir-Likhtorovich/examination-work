@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style_token.css">
-    <link rel="stylesheet" href="script_tokendobra.js">
+    <script src="script_tokendobra.js"></script>
 
     <title>funds</title>
 
@@ -21,17 +21,7 @@
     </style>
 </head>
 <script>
-window.addEventListener("DOMContentLoaded", function () {
-        document.querySelector(".open-menu").addEventListener("click", function () {
-            document.querySelector(".mobil-menu").classList.toggle("hidden");
-        });
 
-        document.body.addEventListener("click", function (e) {
-            if (!e.target.closest(".open-menu")) {
-                document.querySelector(".mobil-menu").classList.add("hidden");
-            }
-        });
-    });
 </script>
 
 <body class="fund-page">
