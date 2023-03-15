@@ -1174,6 +1174,148 @@ header {
     padding: 20px 30px 10px;
 }
 
+.shop-block {
+    margin-bottom: 45px;
+}
+
+
+.shop-email {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0C0C0C;
+
+}
+
+
+.buy-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.07);
+    border-radius: 13px;
+    margin-top: 20px;
+}
+
+
+.buy-block-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.buy-block-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.buy-text-dino {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #0C0C0C;
+}
+
+.buy-text-nft {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #0C0C0C;
+    padding: 5px 10px;
+    width: 85px;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.07);
+    backdrop-filter: blur(2px);
+    border-radius: 21px;
+    text-align: center;
+
+}
+
+
+.buy-block-text-autor {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.buy-block-text-dino,
+.buy-block-text-autor,
+.buy-block-text-fund {
+    display: flex;
+    gap: 20px;
+}
+
+.buy-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.text-buy {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0C0C0C;
+}
+
+.buy-block-text-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-top: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0C0C0C;
+}
+
+.text-buy-code {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0C0C0C;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
     background: #F4F4F4;
     background-size: cover;
@@ -1371,7 +1513,15 @@ footer {
         justify-content: center;
         padding-right: 0px;
     }
+
+    .buy-block {
+        display: flex;
+        flex-direction: column;
+    }
 }
+
+
+
 
 @media (max-width: 980px) {
     .raccoon-content {
@@ -1536,12 +1686,12 @@ footer {
 
     .enot-pole {
         max-width: 90%;
-      
 
     }
+
     .enot-send-shop {
         max-width: 91%;
-    
+
     }
 
 }
@@ -1555,20 +1705,20 @@ footer {
 
     .bet {
         margin-top: 169px;
-
     }
 
     .report-text {
-
         text-align: justify;
+    }
 
+    .text-buy-code {
+        font-size: 16px;
     }
 }
 
 @media (max-width: 570px) {
     .bet {
         margin-top: 135px;
-
     }
 
     .button-header-raccoon {
@@ -1589,7 +1739,6 @@ footer {
     .picture-galery {
         max-width: 100%;
         height: auto;
-
     }
 
     .text-description {
@@ -1599,7 +1748,10 @@ footer {
 
     .report-text {
         text-align: justify;
+    }
 
+    .text-buy-code {
+        font-size: 12px;
     }
 }
 
@@ -1650,4 +1802,12 @@ footer {
         margin-left: 15px;
         top: 0;
     }
+
+    .buy-block-text-dino,
+    .buy-block-text-fund,
+    .buy-block-text-autor {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
