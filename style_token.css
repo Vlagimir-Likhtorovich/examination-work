@@ -1252,6 +1252,7 @@ header {
 
 
 .buy-block-text-dino,
+.buy-block-text-dino1,
 .buy-block-text-autor,
 .buy-block-text-fund {
     display: flex;
@@ -1299,21 +1300,6 @@ header {
     color: #0C0C0C;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 footer {
@@ -1627,9 +1613,7 @@ footer {
 
 @media (max-width: 745px) {
     .report-text {
-
         text-align: justify;
-
     }
 
     .enot-line {
@@ -1642,7 +1626,6 @@ footer {
 @media (max-width: 720px) {
     .bet {
         margin-top: 85px;
-
     }
 }
 
@@ -1691,11 +1674,9 @@ footer {
 
     .enot-send-shop {
         max-width: 91%;
-
     }
 
 }
-
 
 @media (max-width: 621px) {
     .fund-page .top-content-text {
@@ -1713,6 +1694,12 @@ footer {
 
     .text-buy-code {
         font-size: 16px;
+    }
+
+    .buy-block-text-dino1 {
+        display: flex;
+        flex-direction: column;
+
     }
 }
 
@@ -1733,7 +1720,6 @@ footer {
     }
 
 }
-
 
 @media (max-width: 502px) {
     .picture-galery {
