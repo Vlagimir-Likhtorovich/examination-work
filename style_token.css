@@ -193,7 +193,7 @@ header {
     color: #0C0C0C;
 }
 
-.index-page .kid {
+.kid {
     font-family: 'Montserrat';
     font-style: normal;
     font-size: 55px;
@@ -203,7 +203,7 @@ header {
     font-weight: normal;
 }
 
-.index-page .bank-card {
+.bank-card {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -399,7 +399,6 @@ header {
 }
 
 .progress-bar-works {
-
     height: 10px;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 8px;
@@ -720,12 +719,6 @@ header {
 
 }
 
-.progress-bar-completed {
-    background: #0C0C0C;
-    height: 100%;
-    border-radius: 8px;
-    width: 60%;
-}
 
 .level {
     display: flex;
@@ -832,7 +825,6 @@ header {
 
 
 .enot-report-shop {
-
     display: flex;
     flex-direction: column;
     padding: 30px 12px 30px 30px;
@@ -844,7 +836,6 @@ header {
 }
 
 .enot-report-block {
-
     display: flex;
     flex-direction: row;
     padding-bottom: 45px;
@@ -883,7 +874,6 @@ header {
     border: solid 1px #F4F4F4;
     border-radius: 10px;
 
-
 }
 
 .enot-bet {
@@ -895,8 +885,6 @@ header {
     color: #0C0C0C;
     padding-bottom: 15px;
 }
-
-
 
 .progress-bar-enot {
     width: 99%;
@@ -932,8 +920,6 @@ header {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-
 
 .look-enot {
     display: flex;
@@ -1301,7 +1287,6 @@ header {
 
 }
 
-
 footer {
     background: #F4F4F4;
     background-size: cover;
@@ -1361,6 +1346,59 @@ footer {
     padding-top: 10px;
 }
 
+.block-komanda {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
+.our-people {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+    height: 160px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 13px;
+}
+
+.komanda-name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0C0C0C;
+}
+
+.komanda-activity {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.komanda-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
 
 @media (max-width: 1330px) {
 
@@ -1390,7 +1428,7 @@ footer {
         overflow-x: auto;
     }
 
-    .index-page .funds-top-right::-webkit-scrollbar {
+    .funds-top-right::-webkit-scrollbar {
         width: 5px;
         height: 8px;
         background-color: #FFFFFF44;
@@ -1464,6 +1502,11 @@ footer {
     .fund-page .top-content-text {
         text-align: center;
     }
+
+    .block-komanda {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 1085px) {
@@ -1507,8 +1550,6 @@ footer {
 }
 
 
-
-
 @media (max-width: 980px) {
     .raccoon-content {
         display: flex;
@@ -1521,8 +1562,6 @@ footer {
         max-width: 75%;
         margin-left: 75px;
     }
-
-
 }
 
 
@@ -1549,7 +1588,7 @@ footer {
         justify-content: center;
     }
 
-    .index-page .funds-top-right,
+    .funds-top-right,
     .funds-bottom-right {
         background-repeat: repeat;
         flex-wrap: wrap;
@@ -1609,11 +1648,17 @@ footer {
         gap: 10px;
 
     }
+
 }
 
 @media (max-width: 745px) {
     .report-text {
         text-align: justify;
+    }
+
+    .komanda-text {
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .enot-line {
@@ -1630,12 +1675,12 @@ footer {
 }
 
 @media (max-width: 670px) {
-    .index-page .kid {
+    .kid {
         font-size: 40px;
         line-height: 45px;
     }
 
-    .index-page .bank-card {
+    .bank-card {
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;
@@ -1722,6 +1767,32 @@ footer {
 }
 
 @media (max-width: 502px) {
+
+    .bank-card {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 28px;
+        color: #0C0C0C;
+        text-align: center;
+    }
+
+    .send {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .kid {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 30px;
+        max-width: 100%;
+        height: auto;
+    }
+
     .picture-galery {
         max-width: 100%;
         height: auto;
@@ -1758,7 +1829,7 @@ footer {
         padding-left: 0 !important;
     }
 
-    .index-page .top-content {
+    .top-content {
         width: 100%;
     }
 
@@ -1781,11 +1852,15 @@ footer {
         height: 10px;
         margin-left: 28px;
     }
+
+    .komanda-text {
+        margin-right: 25px;
+    }
 }
 
 @media (max-width: 402px) {
     .bet {
-        margin-left: 15px;
+        margin-left: 6px;
         top: 0;
     }
 
@@ -1795,5 +1870,11 @@ footer {
         display: flex;
         flex-direction: column;
     }
+
+    .komanda-activity {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
 
 }
