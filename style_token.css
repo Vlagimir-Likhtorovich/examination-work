@@ -1415,7 +1415,7 @@ footer {
     top: calc(50% - 504px/2);
     background: #FFFFFF;
     border-radius: 15px;
-    border: solid 1px;
+    border: solid 1px #FFFF;
     padding-left: 15px;
     padding-top: 15px;
     font-family: 'Montserrat';
@@ -1432,7 +1432,6 @@ footer {
 
 
 .o-nas {
-
     font-size: 24px;
     line-height: 36px;
     margin-bottom: 20px;
@@ -1710,6 +1709,64 @@ footer {
     .container {
         padding-top: 25px;
     }
+
+    .modal-content {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 288px;
+        height: 504px;
+        left: calc(50% - 288px/2);
+        top: calc(50% - 504px/2);
+        background: #FFFFFF;
+        border-radius: 15px;
+    }
+
+    .o-nas-pictures {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .o-nas-copy {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 30px;
+        gap: 12px;
+        max-width: 390px;
+        max-height: 30px;
+        border: 2px solid #0C0C0C;
+        border-radius: 11px;
+        cursor: pointer;
+    }
+
+    .o-nas-link {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 12px;
+        max-width: 425px;
+        max-height: 30px;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 11px;
+        cursor: pointer;
+    }
+    .o-nas {
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 20px;
+        color: #0C0C0C;
+        text-align: center;
+    }
+
+
+
+
+
+
 }
 
 @media (min-width: 960px) {
