@@ -9,3 +9,24 @@ window.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+document.querySelector(".button-header").addEventListener("click", function(event){
+    event.preventDefault();
+    document.querySelector(".modal-overlay").classList.remove("hidden");
+
+    setTimeout(function(){
+        document.querySelector(".modal-content").classList.add("ready");
+    });
+
+
+});
+
+document.querySelector("#close-menu-modal-btn").addEventListener("click", function(event){
+    document.querySelector(".modal-content").classList.remove("ready");
+    setTimeout(function(){
+        document.querySelector(".modal-overlay").classList.add("hidden");
+    }, 200);
+    
+    
+});
+
