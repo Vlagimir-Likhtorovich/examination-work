@@ -110,7 +110,7 @@ header {
 
 
 .hidden {
-    display: none;
+    display: none !important;
 
 }
 
@@ -1405,6 +1405,18 @@ footer {
 
 }
 
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
 .modal-content {
     display: flex;
     flex-direction: row;
@@ -1710,75 +1722,36 @@ footer {
         padding-top: 25px;
     }
 
-   /* .modal-overlay{
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: rgba(0,0,0, 0.5);
-    }*/
+
 
     .modal-content {
         display: flex;
         flex-direction: column;
-        position: absolute;
-        width: 288px;
-        height: 504px;
-        left: calc(50% - 288px/2);
-        top: calc(50% - 504px/2);
-        background: #FFFFFF;
-        border-radius: 15px;
-    }
-
-    .o-nas-pictures {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .o-nas-copy {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
         align-items: center;
-        padding: 10px 30px;
-        gap: 12px;
-        max-width: 390px;
-        max-height: 30px;
-        border: 2px solid #0C0C0C;
-        border-radius: 11px;
-        cursor: pointer;
+        height: auto;
+        width: 80%;
+        margin-left: 100px;
+
+    }
+
+    .close-menu-modal {
+        padding-left: 30px;
+        left: 320px;
+        bottom: 815px;
+        position: relative;
+    }
+
+    .o-nas-links {
+        display: flex;
+        flex-direction: column;
+
+
     }
 
     .o-nas-link {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 12px;
-        max-width: 425px;
-        max-height: 30px;
-        background: #FFFFFF;
-        border: 1px solid rgba(0, 0, 0, 0.2);
-        border-radius: 11px;
-        cursor: pointer;
+        width: 540px;
+        padding-left: 25px;
     }
-    .o-nas {
-        font-size: 18px;
-        line-height: 26px;
-        margin-bottom: 20px;
-        color: #0C0C0C;
-        text-align: center;
-    }
-
-
-
-
-
-
 }
 
 @media (min-width: 960px) {
@@ -1800,6 +1773,27 @@ footer {
 
 }
 
+@media (max-width: 890px) {
+    .close-menu-modal {
+        padding-left: 30px;
+        left: 280px;
+        bottom: 820px;
+        position: relative;
+    }
+
+    .o-nas-link {
+        width: 88%;
+        padding-left: 25px;
+    }
+
+    .o-nas-copy {
+        width: 90%;
+        padding-left: 0;
+
+    }
+}
+
+
 @media (max-width: 801px) {
     .bet {
         position: relative;
@@ -1809,9 +1803,15 @@ footer {
 
     }
 
+    .modal-content {
+        margin-left: 145px;
+        padding-bottom: 20px;
+
+    }
+
 }
 
-@media (max-width: 745px) {
+@media (max-width: 750px) {
     .report-text {
         text-align: justify;
     }
@@ -1824,6 +1824,22 @@ footer {
     .enot-line {
         width: 100%;
     }
+
+    .close-menu-modal {
+        left: 240px;
+    }
+
+    .o-nas-link {
+        width: 82%;
+        padding-left: 25px;
+    }
+
+    .o-nas-copy {
+        width: 84%;
+        padding-left: 0;
+
+    }
+
 
 }
 
@@ -1880,6 +1896,50 @@ footer {
         max-width: 91%;
     }
 
+    .close-menu-modal {
+        left: 230px;
+    }
+
+    .o-nas-link {
+        width: 75%;
+        padding-left: 25px;
+        margin-left: 15px;
+    }
+
+    .o-nas-copy {
+        width: 78%;
+        padding-left: 0;
+        margin-left: 15px;
+
+    }
+
+    .o-nas-text {
+        width: 80%;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .o-nas {
+        text-align: center;
+    }
+
+    .modal-content {
+        margin-left: 180px;
+
+    }
+
+}
+
+@media (max-width: 630px) {
+    .close-menu-modal {
+        left: 215px;
+    }
+
+    .o-nas-text {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
 }
 
 @media (max-width: 621px) {
@@ -1907,6 +1967,24 @@ footer {
     }
 }
 
+@media (max-width: 590px) {
+
+    .close-menu-modal {
+        left: 200px;
+    }
+
+    .modal-content {
+        margin-left: 205px;
+    }
+
+    .o-nas-text {
+        font-size: 18px;
+        line-height: 20px;
+        text-align: justify;
+        margin-bottom: 15px;
+    }
+}
+
 @media (max-width: 570px) {
     .bet {
         margin-top: 135px;
@@ -1925,11 +2003,25 @@ footer {
 
 }
 
+@media (max-width: 515px) {
+    .close-menu-modal {
+        left: 180px;
+    }
+
+    .o-nas {
+        text-align: justify;
+        font-size: 22px;
+    }
+
+    .modal-content {
+        margin-left: 230px;
+    }
+}
+
 @media (max-width: 502px) {
 
     .bank-card {
         font-family: 'Montserrat';
-        font-style: normal;
         font-weight: 500;
         font-size: 22px;
         line-height: 28px;
@@ -1969,8 +2061,32 @@ footer {
     .text-buy-code {
         font-size: 12px;
     }
+
+    .o-nas-text {
+        font-size: 17px;
+        line-height: 18px;
+        text-align: justify;
+    }
 }
 
+@media (max-width: 470px) {
+    .close-menu-modal {
+        left: 160px;
+        bottom: 840px;
+    }
+
+    .o-nas {
+        font-size: 18px;
+    }
+
+    .o-nas-link {
+        margin-top: 10px;
+    }
+
+    .modal-content {
+        margin-left: 245px;
+    }
+}
 
 @media (max-width: 452px) {
     .container {
@@ -2017,6 +2133,13 @@ footer {
     }
 }
 
+@media (max-width: 430px) {
+    .close-menu-modal {
+        left: 150px;
+        bottom: 850px;
+    }
+}
+
 @media (max-width: 402px) {
     .bet {
         margin-left: 6px;
@@ -2035,5 +2158,46 @@ footer {
         line-height: 15px;
     }
 
+    .modal-content {
+        margin-left: 260px;
+    }
+
+    .close-menu-modal {
+        left: 140px;
+        bottom: 845px;
+    }
+
+    .o-nas {
+        font-size: 16px;
+        line-height: 17px;
+        text-align: left;
+    }
+
+    .o-nas-link {
+        margin-left: 0;
+        padding-left: 10px;
+
+    }
+
+    .o-nas-copy {
+        padding-left: 0;
+        margin-left: 0;
+        width: 74%;
+    }
+
+    .o-nas-text {
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 385px) {
+    .modal-content {
+        margin-left: 285px;
+    }
+
+    .close-menu-modal {
+        left: 128px;
+        bottom: 845px;
+    }
 
 }
